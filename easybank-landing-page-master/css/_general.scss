@@ -1,0 +1,57 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: $publicSans;
+  font-weight: 300;
+  scroll-behavior: smooth;
+}
+
+body.noscroll {
+  overflow: hidden;
+}
+
+a,
+a:active,
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+
+  &-ai-c {
+    align-items: center;
+  }
+
+  &-jc-sb {
+    justify-content: space-between;
+  }
+
+  &-jc-c {
+    justify-content: center;
+  }
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
